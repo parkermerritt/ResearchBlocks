@@ -1,5 +1,12 @@
 import React from 'react'
 import logo from '../assets/images/RBLogoTrans.png'
+import styled from 'styled-components'
+/* eslint-disable */
+
+const Logo = styled.img`
+  max-width: 275px;
+  margin-bottom: -65px;
+`
 
 class Header extends React.Component {
   render() {
@@ -8,21 +15,16 @@ class Header extends React.Component {
         <div className="inner">
           <span className="icon major">
             <span className="image fit">
-              <img src={logo} alt={'logo'} />
+              <Logo src={logo} alt={'logo'} />
             </span>
           </span>
-          <h1>
-            <strong>Research Blocks</strong>
-            <br />
-          </h1>
-          <p>
-            Accumsan feugiat mi commodo erat lorem ipsum, sed magna
-            <br />
-            lobortis feugiat sapien sed etiam volutpat accumsan.
-          </p>
+
+          <h2>
+            <strong>Revolutionizing the Research Ecosystem</strong>
+          </h2>
           <ul className="actions">
             <li>
-              <a href="#one" className="button scrolly">
+              <a href="#" className="button scrolly">
                 Whitepaper
               </a>
             </li>

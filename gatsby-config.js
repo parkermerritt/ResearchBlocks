@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Photon",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Photon by HTML5 UP"
+    title: 'Research Blocks',
+    author: 'Parker Merritt',
+    description: 'Web-based clinical research platform.',
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -15,10 +16,10 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/RBLogoTrans.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }
