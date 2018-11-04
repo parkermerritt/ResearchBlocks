@@ -4,9 +4,10 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
+import RBIncentives from '../assets/images/RBIncentives2.png'
+import RBTransparency from '../assets/images/RBTransparency4.png'
+
 /* eslint-disable */
 
 class Homepage extends React.Component {
@@ -113,7 +114,7 @@ class Homepage extends React.Component {
 
             <div className="col-4">
               <span className="image fit">
-                <img src={pic02} alt="" />
+                <img src={RBTransparency} alt="" />
               </span>
               <h3>Improved Transparency</h3>
               <p>
@@ -125,7 +126,7 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic03} alt="" />
+                <img src={RBIncentives} alt="" />
               </span>
               <h3>Research Incentives</h3>
               <p>

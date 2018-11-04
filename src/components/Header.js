@@ -22,6 +22,7 @@ class Header extends React.Component {
           <h2>
             <strong>Revolutionizing the Research Ecosystem</strong>
           </h2>
+
           <ul className="actions">
             <li>
               <a href="#" className="button scrolly">
