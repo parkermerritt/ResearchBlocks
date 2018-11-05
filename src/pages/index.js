@@ -60,7 +60,7 @@ class Homepage extends React.Component {
               </header>
               <p>
                 According to Nature’s survey, more than 70% of researchers have
-                tried and failed to reproduce another research. o Lack of
+                tried and failed to reproduce another research. Lack of
                 reproducibility and transparency can not only deter reliability
                 of research, but also result in research-related harms to study
                 participants.
