@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic01 from '../assets/images/pic01.jpg'
+import RbRc from '../assets/images/RbRc.png'
+
 import RBReproduce from '../assets/images/RBReproduce.png'
 import RBIncentives from '../assets/images/RBIncentives2.png'
 import RBTransparency from '../assets/images/RBTransparency4.png'
@@ -45,26 +47,9 @@ class Homepage extends React.Component {
         <section id="two" className="main style2">
           <div className="grid-wrapper">
             <div className="col-6">
-              <ul className="major-icons">
-                <li>
-                  <span className="icon style1 major fa-code" />
-                </li>
-                <li>
-                  <span className="icon style2 major fa-code" />
-                </li>
-                <li>
-                  <span className="icon style3 major fa-code" />
-                </li>
-                <li>
-                  <span className="icon style4 major fa-code" />
-                </li>
-                <li>
-                  <span className="icon style5 major fa-code" />
-                </li>
-                <li>
-                  <span className="icon style6 major fa-code" />
-                </li>
-              </ul>
+              <span className="image fit">
+                <img src={RbRc} alt="" />
+              </span>
             </div>
             <div className="col-6">
               <header className="major">
