@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic01 from '../assets/images/pic01.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import RBReproduce from '../assets/images/RBReproduce.png'
 import RBIncentives from '../assets/images/RBIncentives2.png'
 import RBTransparency from '../assets/images/RBTransparency4.png'
 
@@ -137,7 +137,7 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <span className="image fit">
-                <img src={pic04} alt="" />
+                <img src={RBReproduce} alt="" />
               </span>
               <h3>Experimental Reproducibility</h3>
               <p>
