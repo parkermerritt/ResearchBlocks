@@ -25,8 +25,8 @@ class Homepage extends React.Component {
             <div className="col-6">
               <header className="major">
                 <h2>
-                  Improving the Reproducibility, Integrity, <br />
-                  and Transparency of Clinical Trials.{' '}
+                  Improving the Reproducibility, Integrity, and Transparency of
+                  Clinical Trials.{' '}
                 </h2>
               </header>
               <p>
@@ -60,26 +60,26 @@ class Homepage extends React.Component {
               </header>
               <p>
                 According to Nature’s survey, more than 70% of researchers have
-                tried and failed to reproduce another research. Lack of
-                reproducibility and transparency can not only deter reliability
-                of research, but also result in research-related harms to study
-                participants.
+                tried and failed to replicate the results of other studies. Lack
+                of reproducibility and transparency can not only deter
+                reliability of research, but also result in research-related
+                harms to study participants.
               </p>
               <p>
                 Exploiting the advantages of blockchain technology, Research
-                Chain will increase reproducibility and transparency of
+                Blocks will increase reproducibility and transparency of
                 research. Researchers, regulators, healthcare professionals, and
                 research participants will be able to track, validate, and
                 reproduce studies more easily.
               </p>
               <p>
-                Utilizing the benefits of blockchain such as timestamping and
-                immutability, the research process will also be more
-                reproducible and transparent. Researchers will have the option
-                to share their collected data and findings for incentives (e.g.
-                tokens). Overall, the new, improved research process using
-                Research Block will add credibility, transparency,
-                reproducibility, and reliabilities to the research ecosystem.
+                Utilizing the benefits of blockchain, such as timestamping and
+                immutability, the research process will be more reproducible and
+                transparent. Researchers will have the option to share their
+                collected data and findings for incentives (e.g. tokens).
+                Overall, the new, improved research process using Research
+                Blocks will add credibility, transparency, reproducibility, and
+                reliability to the research ecosystem.
               </p>
             </div>
           </div>
