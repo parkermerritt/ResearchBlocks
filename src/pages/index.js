@@ -26,7 +26,7 @@ class Homepage extends React.Component {
               <header className="major">
                 <h2>
                   Improving the Reproducibility, Integrity, and Transparency of
-                  Clinical Trials.{' '}
+                  Clinical Research.{' '}
                 </h2>
               </header>
               <p>
